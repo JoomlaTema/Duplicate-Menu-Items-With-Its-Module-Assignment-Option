@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="content" method="upgrade">
+ <name>plg_content_jt_copymoduleassignments</name>
+     <author>Joomlatema.net</author>
+	<creationDate>Sep 2024</creationDate>
+    <copyright>JOOMLATEMA.NET</copyright>
+	<license>GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+    <authorEmail>admin@joomlatema.net</authorEmail>
+   <authorUrl>http://www.joomlatema.net</authorUrl>
+    <version>1.0</version>
+    <description>PLG_JT_COPY_MODULE_ASSIGNMENTS_XML_DESCRIPTION</description>
+    <files>
+        <filename plugin="jt_copymoduleassignments">jt_copymoduleassignments.php</filename>
+		<folder>language</folder>
+    </files>
+    <languages>
+        <language tag="en-GB">language/en-GB.plg_content_jt_copymoduleassignments.ini</language>
+        <language tag="en-GB">language/en-GB.plg_content_jt_copymoduleassignments.sys.ini</language>
+    </languages>
+    <config>
+    </config>
+</extension>
